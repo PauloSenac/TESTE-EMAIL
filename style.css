@@ -1,0 +1,45 @@
+.menu-item_list {
+    height: 5%;
+    background: grey;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#ul-list {
+    display: flex;
+    height: 5%
+}
+
+.menu_item-home, .menu_item-support, .menu_item-contact {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1em;
+    color: black;
+    justify-content: center;
+    line-height: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.input-email {
+    margin: 30px 20px;
+}
+
+.email {
+    float: left;
+    border: solid 0.5px;
+    border-radius: 7px 0 0 7px;
+    line-height: 25px;
+    padding: 6px;
+}
+
+.button {
+    border-radius: 0 5px 5px 0;
+    border: solid 0.5px;
+    padding: 6px;
+    cursor: pointer;
+    margin: 0 0 0 -1px;
+    line-height: 25px;
+}
